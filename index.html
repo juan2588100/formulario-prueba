@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Mail Form</title>
+</head>
+<body>
+ <form id="contactform" action="correo.php" name="contactform" method="POST">
+    <fieldset>
+        <div>
+            <input type="text" name="nombre" id="first_name" placeholder="Nombre">
+        </div>
+        <div>
+            <input type="text" name="apellido" id="last_name" placeholder="Apellido Paterno">
+        </div>
+        <div>
+            <input type="email" name="email" id="email" placeholder="Email">
+        </div>
+        <div>
+            <input type="text" name="numero" id="phone" placeholder="Teléfono">
+        </div>
+        <div>
+            <textarea class="form-control" name="mensaje" id="comments" rows="6"></textarea>
+        </div>
+        <input type="submit" name="enviar" value="Enviar">
+    </fieldset>
+</form>
+</body>
+</html>
